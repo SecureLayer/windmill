@@ -24,7 +24,7 @@
     "jszip": "3.8.0",
     "minimatch": "^10.0.0",
     "open": "^10.0.0",
-    "svelte": "^5.45.2",
+    "svelte": "^5.53.5",
     "tar-stream": "^3.1.7",
     "windmill-parser-wasm-csharp": "*",
     "windmill-parser-wasm-go": "*",
