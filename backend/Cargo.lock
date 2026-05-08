@@ -2127,7 +2127,7 @@ dependencies = [
  "memmap2 0.9.10",
  "num-traits",
  "num_cpus",
- "rand 0.9.0",
+ "rand 0.9.4",
  "rand_distr",
  "rayon",
  "safetensors",
@@ -2163,7 +2163,7 @@ dependencies = [
  "candle-nn",
  "fancy-regex 0.17.0",
  "num-traits",
- "rand 0.9.0",
+ "rand 0.9.4",
  "rayon",
  "serde",
  "serde_json",
@@ -5787,7 +5787,7 @@ checksum = "719a903cc23e4a89e87962c2a80fdb45cdaad0983a89bd150bb57b4c8571a7d5"
 dependencies = [
  "half",
  "num-traits",
- "rand 0.9.0",
+ "rand 0.9.4",
  "rand_distr",
 ]
 
@@ -6600,7 +6600,7 @@ dependencies = [
  "cfg-if",
  "crunchy",
  "num-traits",
- "rand 0.9.0",
+ "rand 0.9.4",
  "rand_distr",
  "zerocopy",
 ]
@@ -6775,7 +6775,7 @@ dependencies = [
  "log",
  "native-tls",
  "num_cpus",
- "rand 0.9.0",
+ "rand 0.9.4",
  "reqwest 0.12.28",
  "serde",
  "serde_json",
@@ -6802,7 +6802,7 @@ dependencies = [
  "idna",
  "ipnet",
  "once_cell",
- "rand 0.9.0",
+ "rand 0.9.4",
  "serde",
  "thiserror 2.0.18",
  "tinyvec",
@@ -6824,7 +6824,7 @@ dependencies = [
  "moka",
  "once_cell",
  "parking_lot",
- "rand 0.9.0",
+ "rand 0.9.4",
  "resolv-conf",
  "serde",
  "smallvec",
@@ -8844,7 +8844,7 @@ dependencies = [
  "native-tls",
  "pem 3.0.6",
  "percent-encoding",
- "rand 0.9.0",
+ "rand 0.9.4",
  "serde",
  "serde_json",
  "socket2 0.5.10",
@@ -9457,7 +9457,7 @@ dependencies = [
  "parking_lot",
  "percent-encoding",
  "quick-xml",
- "rand 0.9.0",
+ "rand 0.9.4",
  "reqwest 0.12.28",
  "ring 0.17.14",
  "rustls-pemfile 2.2.0",
@@ -9818,7 +9818,7 @@ dependencies = [
  "futures-util",
  "opentelemetry 0.30.0",
  "percent-encoding",
- "rand 0.9.0",
+ "rand 0.9.4",
  "serde_json",
  "thiserror 2.0.18",
  "tokio",
@@ -10840,7 +10840,7 @@ dependencies = [
  "bytes",
  "getrandom 0.3.4",
  "lru-slab",
- "rand 0.9.0",
+ "rand 0.9.4",
  "ring 0.17.14",
  "rustc-hash 2.1.2",
  "rustls 0.23.35",
@@ -10929,13 +10929,12 @@ dependencies = [
 
 [[package]]
 name = "rand"
-version = "0.9.0"
+version = "0.9.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3779b94aeb87e8bd4e834cee3650289ee9e0d5677f976ecdb6d219e5f4f6cd94"
+checksum = "44c5af06bb1b7d3216d91932aed5265164bf384dc89cd6ba05cf59a35f5f76ea"
 dependencies = [
  "rand_chacha 0.9.0",
  "rand_core 0.9.5",
- "zerocopy",
 ]
 
 [[package]]
@@ -11019,7 +11018,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6a8615d50dcf34fa31f7ab52692afec947c4dd0ab803cc87cb3b0b4570ff7463"
 dependencies = [
  "num-traits",
- "rand 0.9.0",
+ "rand 0.9.4",
 ]
 
 [[package]]
@@ -11516,7 +11515,7 @@ dependencies = [
  "oauth2",
  "pastey",
  "pin-project-lite",
- "rand 0.9.0",
+ "rand 0.9.4",
  "reqwest 0.12.28",
  "rmcp-macros",
  "schemars 1.2.1",
@@ -12119,7 +12118,7 @@ dependencies = [
  "openssl-sys",
  "pkg-config",
  "quick-xml",
- "rand 0.9.0",
+ "rand 0.9.4",
  "serde",
  "thiserror 2.0.18",
  "url",
@@ -14510,7 +14509,7 @@ dependencies = [
  "pin-project-lite",
  "postgres-protocol 0.6.11",
  "postgres-types 0.2.9",
- "rand 0.9.0",
+ "rand 0.9.4",
  "socket2 0.5.10",
  "tokio",
  "tokio-util",
@@ -15191,7 +15190,7 @@ version = "1.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "470dbf6591da1b39d43c14523b2b469c86879a53e8b758c8e090a470fe7b1fbe"
 dependencies = [
- "rand 0.9.0",
+ "rand 0.9.4",
  "uuid",
  "web-time",
 ]
@@ -16045,7 +16044,7 @@ dependencies = [
  "opentelemetry 0.30.0",
  "opentelemetry_sdk 0.30.0",
  "prometheus",
- "rand 0.9.0",
+ "rand 0.10.1",
  "rdkafka",
  "reqwest 0.13.1",
  "rumqttc",
@@ -16195,7 +16194,7 @@ dependencies = [
  "postgres-native-tls 0.5.1",
  "prometheus",
  "quick_cache",
- "rand 0.9.0",
+ "rand 0.10.1",
  "regex",
  "reqwest 0.13.1",
  "rsa",
@@ -16502,7 +16501,7 @@ dependencies = [
  "axum 0.8.4",
  "base64 0.22.1",
  "futures",
- "rand 0.9.0",
+ "rand 0.10.1",
  "rdkafka",
  "reqwest 0.13.1",
  "rmcp",
@@ -16841,7 +16840,7 @@ dependencies = [
  "postgres-native-tls 0.5.1",
  "prometheus",
  "quick_cache",
- "rand 0.9.0",
+ "rand 0.10.1",
  "regex",
  "reqwest 0.13.1",
  "reqwest-middleware",
@@ -17520,7 +17519,7 @@ dependencies = [
  "hyper 1.9.0",
  "itertools 0.14.0",
  "lazy_static",
- "rand 0.9.0",
+ "rand 0.10.1",
  "reqwest 0.13.1",
  "serde",
  "serde_json",
@@ -17557,7 +17556,7 @@ dependencies = [
  "itertools 0.14.0",
  "lazy_static",
  "quick_cache",
- "rand 0.9.0",
+ "rand 0.10.1",
  "reqwest 0.13.1",
  "serde",
  "serde_json",
@@ -17752,7 +17751,7 @@ dependencies = [
  "pg_escape",
  "postgres-native-tls 0.5.0",
  "quick_cache",
- "rand 0.9.0",
+ "rand 0.10.1",
  "rust_decimal",
  "serde",
  "serde_json",
@@ -17830,7 +17829,7 @@ dependencies = [
  "chrono",
  "hex",
  "itertools 0.14.0",
- "rand 0.9.0",
+ "rand 0.10.1",
  "serde",
  "serde_json",
  "sqlx",
@@ -17896,7 +17895,7 @@ dependencies = [
  "prometheus",
  "prost",
  "quick_cache",
- "rand 0.9.0",
+ "rand 0.10.1",
  "rcgen",
  "regex",
  "reqwest 0.13.1",
